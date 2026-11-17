@@ -1,0 +1,65 @@
+<section class="blk-traj" id="trajetoria">
+  <div class="wrap">
+    <div class="blk-traj__grid">
+      <div class="blk-traj__cab" data-reveal>
+        <p class="blk-traj__eyebrow">A trajetória</p>
+        <p class="blk-traj__ano-grande"><span data-count="1991">1991</span></p>
+        <h2 class="blk-traj__titulo">Quatro endereços, a mesma cidade</h2>
+        <p class="blk-traj__lead" data-acende>A clínica cresceu de bairro em bairro sem sair da cidade, e muitas das primeiras clientes continuam vindo até hoje.</p>
+      </div>
+      <ol class="blk-traj__linha">
+        <li data-reveal style="--d:0ms">
+          <span class="blk-traj__marca">1991</span>
+          <div><h3>Adri's Esthetic, no Costa e Silva</h3><p>O começo, ainda com outro nome. Foram dez anos no bairro.</p></div>
+        </li>
+        <li data-reveal style="--d:100ms">
+          <span class="blk-traj__marca"><!--icone:local--></span>
+          <div><h3>Saguaçu</h3><p>Três anos na nova sede, com mais espaço para atender.</p></div>
+        </li>
+        <li data-reveal style="--d:200ms">
+          <span class="blk-traj__marca">2005</span>
+          <div><h3>Sede própria no Centro</h3><p>Já como Adriane Borges, na Rua Professora Laura Andrade, ao lado da Abdon Batista.</p></div>
+        </li>
+        <li data-reveal style="--d:300ms">
+          <span class="blk-traj__marca">2011</span>
+          <div><h3>Rua Aracajú, Santo Antônio</h3><p>A sede atual, maior e com estacionamento em frente, onde a clínica está até hoje.</p></div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-traj{padding-block:var(--sp-section);background:var(--bg-2)}
+.blk-traj__grid{display:grid;gap:var(--sp-5)}
+.blk-traj__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-traj__ano-grande{
+  margin:0;font-family:var(--f-display);font-size:clamp(4.5rem,18vw,9.5rem);
+  line-height:.9;color:var(--brand);letter-spacing:-.02em;
+}
+.blk-traj__titulo{
+  margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-traj__lead{margin:var(--sp-3) 0 0;font-size:1.08rem;line-height:1.6;color:var(--ink-soft)}
+.blk-traj__linha{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.blk-traj__linha li{
+  display:grid;grid-template-columns:4.5rem 1fr;gap:var(--sp-3);align-items:baseline;
+  padding-block:var(--sp-3);border-top:1px solid var(--line);
+}
+.blk-traj__linha li:last-child{border-bottom:1px solid var(--line)}
+.blk-traj__marca{
+  font-family:var(--f-display);font-size:1.45rem;line-height:1;color:var(--brand);
+  display:inline-flex;align-items:center;
+}
+.blk-traj__marca svg{width:1.7rem;height:1.7rem;color:var(--brand)}
+.blk-traj__linha h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.25rem,3.2vw,1.55rem);line-height:1.15;color:var(--ink)}
+.blk-traj__linha p{margin:.35rem 0 0;font-size:1rem;line-height:1.55;color:var(--ink-soft)}
+@media (min-width:900px){
+  .blk-traj__grid{grid-template-columns:1fr 1.1fr;gap:clamp(3rem,6vw,6rem);align-items:center}
+  .blk-traj__linha li{grid-template-columns:6rem 1fr}
+}
+</style>

@@ -1,0 +1,337 @@
+{
+  "slug": "adriane-borges",
+  "negocio": {
+    "nome": "Adriane Borges · Estética",
+    "logo": "brand/logo-claro.png",
+    "whatsapp": "5547991283565",
+    "telefone": "(47) 99128-3565",
+    "funcionamento": {
+      "seg": "08:00-21:00",
+      "ter": "08:00-21:00",
+      "qua": "08:00-21:00",
+      "qui": "08:00-21:00",
+      "sex": "08:00-21:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Santo Antônio · Joinville",
+        "endereco": "Rua Aracajú, 1389 – Santo Antônio, Joinville – SC, 89218-025",
+        "telefone": "(47) 99128-3565",
+        "horario": "Seg a sex, das 8h às 21h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#5F8A33",
+    "brand2": "#3E4C41",
+    "ink": "#1F2A22",
+    "bg": "#F7F7F4",
+    "pulse": "#719D3E",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Lato",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Desde 1991",
+            "href": "#trajetoria"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial e corporal · Joinville",
+        "h1": "Estética em Joinville desde 1991",
+        "lead": "Ultrassom microfocado, skinbooster, laser, micropigmentação e tratamentos corporais na sede própria do Santo Antônio, com avaliação antes de qualquer indicação.",
+        "cta": "Marcar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da clínica Adriane Borges na Rua Aracajú, em Joinville",
+        "tarja": [
+          "Em Joinville desde 1991",
+          "Sede própria no Santo Antônio",
+          "4,9 no Google · 159 avaliações",
+          "Seg a sex, das 8h às 21h"
+        ],
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Ultrassom microfocado",
+          "Skinbooster",
+          "PRP",
+          "Laser 360",
+          "Depilação a laser",
+          "Micropigmentação",
+          "Criolipólise",
+          "Radiofrequência",
+          "Drenagem linfática",
+          "Limpeza de pele"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "gigante",
+      "data": {
+        "titulo": "O que a cidade já sabe",
+        "itens": [
+          {
+            "valor": "35",
+            "rotulo": "anos atendendo em Joinville",
+            "contar": 35
+          },
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "159",
+            "rotulo": "avaliações de clientes",
+            "contar": 159
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "O jeito da casa",
+        "citacao": "Muitas das nossas primeiras clientes ainda marcam horário com a gente.",
+        "autor": "Adriane Borges",
+        "texto": [
+          "Uma clínica não chega a 35 anos vendendo pacote. Chega porque a cliente volta, e volta porque foi bem orientada da primeira vez.",
+          "Por isso o atendimento começa por uma avaliação: entender o que incomoda, olhar a pele e o corpo, e só então indicar o tratamento, a quantidade de sessões e quando faz sentido voltar."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto ao corpo, os procedimentos mais procurados na clínica.",
+        "itens": [
+          {
+            "nome": "Ultrassom microfocado (HIFU)",
+            "descricao": "Trabalha em profundidade, até a camada muscular do rosto, para estimular colágeno e firmar a pele. O efeito aparece aos poucos e segue melhorando por até seis meses.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Skinbooster",
+            "descricao": "Hidratação injetável com ácido hialurônico e ativos que estimulam a pele, para linhas finas, viço e textura.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "PRP — plasma rico em plaquetas",
+            "descricao": "Usa o plasma da própria paciente para estimular colágeno, suavizar rugas e tratar olheiras e marcas de acne.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Micropigmentação",
+            "descricao": "Sobrancelhas fio a fio, contorno dos olhos e revitalização da cor dos lábios, desenhados a partir dos traços de cada rosto.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Feita no Soprano ICE, com resfriamento contínuo, para pelos grossos ou finos e todos os tons de pele.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Corpo e contorno",
+            "descricao": "Criolipólise para gordura localizada, radiofrequência para flacidez, drenagem linfática e massagens.",
+            "icone": "mulher"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Os aparelhos da clínica",
+        "itens": [
+          {
+            "nome": "Soprano ICE",
+            "detalhe": "Depilação a laser com três comprimentos de onda",
+            "icone": "laser"
+          },
+          {
+            "nome": "Ultrassom microfocado",
+            "detalhe": "Firmeza do rosto em profundidade",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Laser 360",
+            "detalhe": "Laser fracionado e luz intensa pulsada para textura e manchas",
+            "icone": "sol"
+          },
+          {
+            "nome": "Hygialux",
+            "detalhe": "Fototerapia LED para acne, manchas e rejuvenescimento",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/trajetoria.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "A dúvida chega, a recepção responde",
+        "lead": "Sem formulário e sem espera: a recepção tira a dúvida e já encaixa a avaliação no horário que serve para você.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Adriane Borges · Recepção",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Queria saber do ultrassom microfocado. Quantas sessões precisa?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi, tudo bem? Na maioria dos casos é uma sessão só, e o resultado vai aparecendo ao longo dos meses seguintes."
+          },
+          {
+            "de": "clinica",
+            "texto": "Antes a gente faz uma avaliação para ver quais regiões do rosto valem a pena tratar. Prefere de manhã ou à tarde?"
+          },
+          {
+            "de": "paciente",
+            "texto": "À tarde, depois das 17h."
+          },
+          {
+            "de": "clinica",
+            "texto": "Quinta às 17h30 está livre. Posso reservar para você?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Da primeira mensagem até o retorno.",
+        "itens": [
+          {
+            "titulo": "Você chama no WhatsApp",
+            "texto": "Conta o que gostaria de melhorar e escolhe o melhor horário, de segunda a sexta, até as 21h.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação na clínica",
+            "texto": "A profissional olha a pele e o corpo e explica o que faz sentido para o seu caso, e o que não precisa ser feito.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Tratamento",
+            "texto": "Com o plano combinado: quantas sessões, intervalo entre elas e os cuidados de casa.",
+            "icone": "spa"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "A clínica acompanha o resultado e avisa quando é hora de voltar.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Preciso saber qual tratamento quero antes de marcar?",
+            "r": "Não. Basta contar o que incomoda; a indicação sai da avaliação."
+          },
+          {
+            "p": "A depilação a laser serve para pele morena ou negra?",
+            "r": "Sim. O Soprano ICE é indicado para todos os fototipos, inclusive os mais altos."
+          },
+          {
+            "p": "O ultrassom microfocado tem recuperação?",
+            "r": "Em geral não afasta das atividades do dia a dia, e pode ser feito em qualquer época do ano."
+          },
+          {
+            "p": "Atendem homens?",
+            "r": "Sim, a clínica tem tratamentos faciais e corporais pensados também para o público masculino."
+          },
+          {
+            "p": "Qual o horário de atendimento?",
+            "r": "De segunda a sexta, das 8h às 21h, na Rua Aracajú, 1389, no Santo Antônio."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Marque sua avaliação",
+        "lead": "Mande uma mensagem com o que gostaria de cuidar. A recepção responde e encontra um horário com você.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}
